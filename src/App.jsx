@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 export class App extends Component {
     static defaultProps = {
         pageSize: 6,
-        country: "us",
+        country: "co",
         category: "science"
     }
 

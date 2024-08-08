@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Loader extends Component {
     render() {
         return (
-            <div>
+            <div className='div-margin'>
                 <div className="loader">
                     <div className="box box-1">
                         <div className="side-left"></div>
