@@ -22,7 +22,7 @@ export class News extends Component {
 
     async UpadateNews(PageNo) {
         this.props.setProgress(10);
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=30ab8c67ce724d76869cb57bc81969b8&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${PageNo}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=${this.props.apiKey}&category=${this.props.category}&pageSize=${this.props.pageSize}&page=${PageNo}`;
         this.setState({ loading: true });
         this.props.setProgress(30);
         let data = await fetch(url);
