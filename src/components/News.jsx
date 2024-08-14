@@ -34,7 +34,7 @@ const News = (props) => {
 
     useEffect(() => {
         UpadateNews();
-            document.title = `${capitalizeFirstLetter(props.category)} - Daily Spark`
+        document.title = `${capitalizeFirstLetter(props.category)} - Daily Spark`
         //eslint-disable-next-line
     }, [])
 
