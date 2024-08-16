@@ -39,7 +39,7 @@ export class NavBar extends Component {
                         </div>
                         <div>
                             <label className="theme-switch">
-                                <input type="checkbox" className="theme-switch__checkbox" onClick={toggleMode} />
+                                <input type="checkbox" className="theme-switch__checkbox" />
                                     <div className="theme-switch__container">
                                         <div className="theme-switch__clouds"></div>
                                         <div className="theme-switch__stars-container">
